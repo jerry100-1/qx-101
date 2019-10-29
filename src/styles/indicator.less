@@ -1,0 +1,35 @@
+.indicator {
+  color: #323437;
+  .indicator-tip {
+    margin-bottom: 13px;
+  }
+  .indicator-container {
+    .el-checkbox-group {
+      font-size: inherit;
+    }
+    .group {
+      display: table;
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+      .group-title {
+        display: table-cell;
+        width: 100px;
+        padding-right: 10px;
+        box-sizing: content-box;
+        vertical-align: top;
+      }
+      .group-options {
+        display: table-cell;
+        vertical-align: top;
+        .el-checkbox {
+          width: 160px;
+          margin-left: 0;
+          margin-right: 15px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+}
